@@ -5,7 +5,7 @@
     "minimatch": "^9.0.3"
   },
   "scripts": {
-    "build": "npx parcel build src/index.html --public-url /https://petrep.github.io/Codio_CI_CD_for_SW_devs_Coursera",
+    "build": "npx parcel build src/index.html --public-url /Codio_CI_CD_for_SW_devs_Coursera/",
     "lint": "npx eslint src/.",
     "test": "npx jest",
     "deploy": "npm run build && npx gh-pages -d dist",
